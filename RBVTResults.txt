@@ -1,0 +1,25 @@
+----Robust Boundary Value Test---
+Test Cases			A		B		C		OutPut			Result 
+------------------------------------------------------------------
+       1			100		100		0		NotATraingle	Passed
+       2			100		100		1		Isosceles		Passed
+       3			100		100		2		Isosceles		Passed
+       4			100		100		100		Equilateral		Passed
+       5			100		100		199		Isosceles		Passed
+       6			100		100		200		NotATraingle	Passed
+       7			100		100		201		NotATraingle	Passed
+       8			100		0		100		NotATraingle	Passed
+       9			100		1		100		Isosceles		Passed
+       10			100		2		100		Isosceles		Passed
+       11			100		199		100		Isosceles		Passed
+       12			100		200		100		NotATraingle	Passed
+       13			100		201		100		NotATraingle	Passed
+       14			0		100		100		NotATraingle	Passed
+       15			1		100		100		Isosceles		Passed
+       16			2		100		100		Isosceles		Passed
+       17			199		100		100		Isosceles		Passed
+       18			200		100		100		NotATraingle	Passed
+       19			201		100		100		NotATraingle	Passed
+------------------------------------------------------------------
+--End Normal Boundary Value Test--
+ 
